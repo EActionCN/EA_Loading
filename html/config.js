@@ -10,6 +10,9 @@ const CONFIG = {
   carousel: {
     images: [
       { src: 'https://r2.fivemanage.com/N3k1nuBG7ZNDWV2t3hiEb/VphuCXVBkHlC.webp', alt: 'Scene 1' },
+      { src: 'https://r2.fivemanage.com/N3k1nuBG7ZNDWV2t3hiEb/5yWAkyn6hK7u.webp', alt: 'Scene 2' },
+      { src: 'https://r2.fivemanage.com/N3k1nuBG7ZNDWV2t3hiEb/VphuCXVBkHlC.webp', alt: 'Scene 3' },
+      { src: 'https://placehold.co/1920x1080/100f15/1f1a2a?text=Scene+04', alt: 'Scene 4' },
     ],
     interval: 3000,
     transitionDuration: 1.5,
