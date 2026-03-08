@@ -1,11 +1,24 @@
 const CONFIG = {
 
   serverName: 'E-Action RolePlay',
-  logoUrl: 'https://r2.fivemanage.com/xxxxxxxxxxxx.png',
+  logoUrl: 'https://r2.fivemanage.com/N3k1nuBG7ZNDWV2t3hiEb/EALOGO6_nobackground.png',
 
-  videoUrl: 'https://r2.fivemanage.com/xxxxxxxxxx.mp4',
+  // videoUrl: set a video URL to use video background, or leave empty to use carousel
+  videoUrl: '',
 
-  musicUrl: 'https://r2.fivemanage.com/xxxxxxxxx.mp3',
+  // Background image carousel (active when videoUrl is empty)
+  carousel: {
+    images: [
+      { src: 'https://r2.fivemanage.com/N3k1nuBG7ZNDWV2t3hiEb/VphuCXVBkHlC.webp', alt: 'Scene 1' },
+    ],
+    interval: 3000,
+    transitionDuration: 1.5,
+    kenBurns: true,
+    brightness: 0.7,
+    contrast: 1.1,
+  },
+
+  musicUrl: 'https://r2.fivemanage.com/xxxxxxxxxx/EA_BGM.mp3',
   musicVolume: 0.3,
 
   discordUrl: 'https://discord.com/invite/FNZuMBuzRj',
