@@ -27,6 +27,7 @@ const CONFIG = {
   discordUrl: 'https://discord.com/invite/FNZuMBuzRj',
 
   loaderPrefix: 'SYS.BOOT_',
+  loaderStatusMaxWidth: 'clamp(180px, 18vw, 360px)',
 
   navItems: [
     { key: 'about',   label: 'ABOUT' },
@@ -72,6 +73,7 @@ const CONFIG = {
     { text: 'Join our Discord community for events, giveaways and announcements.' },
   ],
   announcementInterval: 5000,
+  announceMaxWidth: 'clamp(260px, 36vw, 560px)',
 
   gallery: [
     { src: 'https://placehold.co/800x450/0d0d0d/1a1a1a?text=01', alt: 'Screenshot 1' },

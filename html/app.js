@@ -266,6 +266,10 @@
     });
   }
 
+  if (CONFIG.loaderStatusMaxWidth) {
+    loaderStatus.style.maxWidth = CONFIG.loaderStatusMaxWidth;
+  }
+
   function updateStatusText(text) {
     if (loaderStatus) loaderStatus.textContent = text;
   }
@@ -546,6 +550,10 @@
   var announcements = CONFIG.announcements || [];
   var announceIdx = 0;
   var announceWidths = [];
+
+  if (CONFIG.announceMaxWidth) {
+    announceBody.style.maxWidth = CONFIG.announceMaxWidth;
+  }
 
   function createAnnounceEl(text) {
     var el = document.createElement('div');
